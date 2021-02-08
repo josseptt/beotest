@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+/*General selector for this test purpose*/
+input{
+    padding: 30px 20px !important;
+}
+
+.bg-light {
+    background-color: #11CFCF !important;
+}
+
+.text-yellow {
+    color: rgba(252, 239, 74, .9) !important;
+}
+
+.btn-yellow {
+    background-color: #FCEF4A !important;
+}
+
+.section-title{
+    font-size: 2rem;
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .right-content{
+        padding: 80px 0 0 100px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .right-content{
+        padding: 100px 0 0 180px;
+    }
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .right-content{
+        padding: 120px 0 0 200px;
+    }
+}
